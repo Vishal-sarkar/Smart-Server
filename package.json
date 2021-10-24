@@ -1,13 +1,10 @@
 {
   "name": "smart-server",
-    "homepage": "https://Vishal-sarkar.github.io/Smart-Server",
+  "homepage": "https://Vishal-sarkar.github.io/Smart-Server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
-  },
-"scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
